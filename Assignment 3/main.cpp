@@ -35,3 +35,4 @@ int addArray(int arr[], int size)
     return sum;
     //test commit
 }
+//Maybe this time it will work, sorry for the random lines. As you can tell I slightly struggled
