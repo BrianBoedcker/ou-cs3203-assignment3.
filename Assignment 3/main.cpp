@@ -79,3 +79,6 @@ void printArray(int array[], int size)
         cout << array[x] << endl;
     }
 }
+//These are some comments for part 10.
+//The remember to declare the functions before Main for the synax to understand the functions themselves.
+//That makes no sense what so ever but I guess I know what I mean afterall right?
