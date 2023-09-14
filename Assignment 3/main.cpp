@@ -10,6 +10,8 @@ using namespace std;
  
 int addArray(int arr[], int size);
 int multiArray(int arr[], int size);
+void reverseArray(int arr[], int size);
+void printArray(int array[], int size);
 
 int main ()
 {
@@ -29,12 +31,15 @@ int main ()
     
     int sum;
 
-    sum = addArray( array, 5 );
+    sum = addArray( array, size);
  
     cout << "The sum of the numbers in the array is:  " << sum << endl;
     
-    int mult = multiArray(array, 5);
+    int mult = multiArray(array, size);
     cout << "The numbers inside of the array multiplied is: " << mult << endl;
+    
+    reverseArray(array, size);
+    printArray(array, size);
     
     return 0;
 }
@@ -61,4 +66,15 @@ int multiArray(int arr[], int size)
     }
     
     return num;
+}
+void reverseArray(int arr[], int size)
+{
+    reverse(arr, arr+size);
+}
+void printArray(int array[], int size)
+{
+    for(int x = 0; x < size; x++)
+    {
+        cout << array[x] << endl;
+    }
 }
