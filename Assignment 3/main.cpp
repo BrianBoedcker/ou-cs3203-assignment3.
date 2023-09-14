@@ -15,6 +15,7 @@ void printArray(int array[], int size);
 
 int main ()
 {
+    //I integrated the functionality of part 6 from the get go in part 5, rather than having a static array.
     int size;
     
     cout << "Please enter the size of the array: ";
