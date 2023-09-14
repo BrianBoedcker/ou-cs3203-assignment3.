@@ -13,7 +13,20 @@ int multiArray(int arr[], int size);
 
 int main ()
 {
-    int array[5] = {1000,5, 3, 17, 50};
+    int size;
+    
+    cout << "Please enter the size of the array: ";
+    cin >> size;
+    
+    int array[size];
+    
+    cout << "Please enter the numbers for the array at hand: ";
+    for(int x = 0; x < size; x++)
+    {
+        cin >> array[x];
+    }
+    
+    
     int sum;
 
     sum = addArray( array, 5 );
