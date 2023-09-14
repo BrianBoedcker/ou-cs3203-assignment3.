@@ -33,4 +33,5 @@ int addArray(int arr[], int size)
     }
 
     return sum;
+    //test commit
 }
